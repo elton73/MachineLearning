@@ -11,3 +11,18 @@ print('numpy: {}'.format(numpy.__version__))
 print('matplotlib: {}'.format(matplotlib.__version__))
 print('pandas: {}'.format(pandas.__version__))
 print('sklearn: {}'.format(sklearn.__version__))
+
+
+import pandas
+f£rom pandas.plotting import scatter_matrix 3
+import matplotlib.pyplot as plt 3
+from sklearn import model selection i
+from sklearn.metrics import classification_report i
+from sklearn.metrics import confusion matrix i
+from sklearn.metrics import accuracy_score i
+from sklearn.linear model import LogisticRegression 1
+from sklearn.tree import DecisionTreeClassifier |
+from sklearn.neighbors import KNeighborsClassifier §
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis |
+from sklearn.naive bayes import GaussianNB §
+from sklearn.svm import SVC ]
